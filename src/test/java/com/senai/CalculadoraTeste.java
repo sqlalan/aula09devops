@@ -18,4 +18,11 @@ public class CalculadoraTeste {
         int resultado = calculadora.multiplicacao(2, 3);
         assertEquals(6, resultado);
     }
+
+    @Test
+    void testarDivisao() {
+        Calculadora calculadora = new Calculadora();
+        int resultado = calculadora.divisao(6, 2);
+        assertEquals(3, resultado);
+    }
 }
